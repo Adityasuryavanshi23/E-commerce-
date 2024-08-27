@@ -6,8 +6,6 @@
   "type": "module",
   "scripts": {
     "aditya": "vite",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -15,7 +13,6 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.5",
-    "gh-pages": "^6.1.1",
     "react": "^19.0.0-rc-8269d55d-20240802",
     "react-countdown": "^2.3.6",
     "react-dom": "^19.0.0-rc-8269d55d-20240802",
