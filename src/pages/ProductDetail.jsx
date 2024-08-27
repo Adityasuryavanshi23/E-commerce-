@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { CiHeart } from "react-icons/ci";
 import deliveryicon from "../assets/images/icon-delivery.png";
-import returndelivery from "../assets/images/icon-return.png";
+import returndelivery from "../assets/images/Icon-return.png";
 
 export const ProductDetail = () => {
   const [count, setCount] = useState(1);
