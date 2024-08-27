@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { Footer } from "../components/Footer";
 import { TopHeader } from "../components/TopHeader";
+import sideimage from "../assets/images/Side Image.png";
 
 export const Login = () => {
   const [user, setUser] = useState({
@@ -29,7 +30,7 @@ export const Login = () => {
       <div className="SignUp-page">
         <div className="left-sign-up-side">
           <figure>
-            <img src="/public/images/Side Image.png" alt="" />
+            <img src={sideimage} alt="" />
           </figure>
         </div>
         <div className=" login-container right-sign-up-content">

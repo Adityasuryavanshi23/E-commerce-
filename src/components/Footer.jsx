@@ -1,4 +1,7 @@
 import { CiLocationArrow1 } from "react-icons/ci";
+import appstore from "../assets/images/appstore.png";
+import googleplay from "../assets/images/googleplay.png";
+import QrCode from "../assets/images/Qr Code.png";
 
 export const Footer = () => {
   return (
@@ -51,18 +54,18 @@ export const Footer = () => {
           <div className="footer-qr-sec">
             <div className="left-qr">
               <figure>
-                <img src="/public/images/Qr Code.png" alt="" />
+                <img src={QrCode} alt="" />
               </figure>
             </div>
             <div className="right-qr">
               <div className="upper-qr">
                 <figure>
-                  <img src="/public/images/googleplay.png" alt="" />
+                  <img src={googleplay} alt="" />
                 </figure>
               </div>
               <div className="bottom-qr">
                 <figure>
-                  <img src="/public/images/appstore.png" alt="" />
+                  <img src={appstore} alt="" />
                 </figure>
               </div>
             </div>

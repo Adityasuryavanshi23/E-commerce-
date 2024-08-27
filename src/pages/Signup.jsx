@@ -3,6 +3,7 @@ import { FcGoogle } from "react-icons/fc";
 import { Footer } from "../components/Footer";
 import { TopHeader } from "../components/TopHeader";
 import { Login } from "./Login";
+import sideimage from "../assets/images/Side Image.png";
 
 export const SignUp = () => {
   const [user, setUser] = useState({
@@ -36,7 +37,7 @@ export const SignUp = () => {
       <div className="SignUp-page">
         <div className="left-sign-up-side">
           <figure>
-            <img src="/public/images/Side Image.png" alt="" />
+            <img src={sideimage} alt="" />
           </figure>
         </div>
         <div className="right-sign-up-side">

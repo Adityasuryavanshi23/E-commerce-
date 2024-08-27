@@ -9,6 +9,17 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import ourstory from "../assets/images/ourstoryimages.png";
+import servicesincome from "../assets/images/Servicesincome.png";
+import servicesincome2 from "../assets/images/Servicesincome2.png";
+import services from "../assets/images/Services.png";
+import servicesincome4 from "../assets/images/Servicesincome4.png";
+import person1 from "../assets/images/person1.png";
+import person2 from "../assets/images/person2.png";
+import person3 from "../assets/images/person3.png";
+import services1 from "../assets/images/Services1.png";
+import services2 from "../assets/images/Services2.png";
+import services3 from "../assets/images/Services3.png";
 
 export const About = () => {
   const [isclicked, setIsclicked] = useState(true);
@@ -54,7 +65,7 @@ export const About = () => {
         </div>
         <div className="right-story-sec">
           <figure>
-            <img src="/public/images/ourstoryimages.png" alt="" />
+            <img src={ourstory} alt="" />
           </figure>
         </div>
       </div>
@@ -62,28 +73,28 @@ export const About = () => {
       <div className="sale-section">
         <div className="box1 boxss">
           <figure>
-            <img src="/public/images/Servicesincome.png" alt="" />
+            <img src={servicesincome} alt="" />
           </figure>
           <h1>10.5k</h1>
           <p>Sallers active our site</p>
         </div>
         <div className="box2 boxss">
           <figure>
-            <img src="/public/images/Servicesincome2.png" alt="" />
+            <img src={servicesincome2} alt="" />
           </figure>
           <h1>10.5k</h1>
           <p>Sallers active our site</p>
         </div>
         <div className="box3 boxss">
           <figure>
-            <img src="/public/images/services.png" alt="" />
+            <img src={services} alt="" />
           </figure>
           <h1>10.5k</h1>
           <p>Sallers active our site</p>
         </div>
         <div className="box4 boxss">
           <figure>
-            <img src="/public/images/servicesincome4.png" alt="" />
+            <img src={servicesincome4} alt="" />
           </figure>
           <h1>10.5k</h1>
           <p>Sallers active our site</p>
@@ -101,7 +112,7 @@ export const About = () => {
           <SwiperSlide>
             <div className="boxphoto1 boxphoto">
               <figure>
-                <img src="/public/images/person1.png" alt="" />
+                <img src={person1} alt="" />
               </figure>
               <h1>Tom Cruise</h1>
               <p>Founder & Chairman</p>
@@ -116,7 +127,7 @@ export const About = () => {
           <SwiperSlide>
             <div className="boxphoto1 boxphoto">
               <figure>
-                <img src="/public/images/person2.png" alt="" />
+                <img src={person2} alt="" />
               </figure>
               <h1>Tom Cruise</h1>
               <p>Founder & Chairman</p>
@@ -131,7 +142,7 @@ export const About = () => {
           <SwiperSlide>
             <div className="boxphoto3 boxphoto">
               <figure>
-                <img src="/public/images/person3.png" alt="" />
+                <img src={person3} alt="" />
               </figure>
               <h1>Tom Cruise</h1>
               <p>Founder & Chairman</p>
@@ -147,17 +158,17 @@ export const About = () => {
 
       <div className="services-section">
         <div className="free-fast">
-          <img src="/public/images/services1.png" alt="" />
+          <img src={services1} alt="" />
           <h3>FREE AND FAST DELIVERY</h3>
           <p>Free delivery for all orders over $140 </p>
         </div>
         <div className="customer-service">
-          <img src="/public/images/services2.png" alt="" />
+          <img src={services2} alt="" />
           <h3>24/7 CUSTOMER SERVICE</h3>
           <p>Friendly 24/7 customer support</p>
         </div>
         <div className="moneyback">
-          <img src="/public/images/services3.png" alt="" />
+          <img src={services3} alt="" />
           <h3>MONEY BACK GUARANTEE</h3>
           <p>We reurn money within 30 days</p>
         </div>

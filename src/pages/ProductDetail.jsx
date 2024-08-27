@@ -8,6 +8,8 @@ import { setProductDetail } from "../store/slices/productDetail";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { CiHeart } from "react-icons/ci";
+import deliveryicon from "../assets/images/icon-delivery.png";
+import returndelivery from "../assets/images/icon-return.png";
 
 export const ProductDetail = () => {
   const [count, setCount] = useState(1);
@@ -112,7 +114,7 @@ export const ProductDetail = () => {
             <div className="delivery-section">
               <div className="free-delivery">
                 <figure>
-                  <img src="/public/images/icon-delivery.png" alt="" />
+                  <img src={deliveryicon} alt="" />
                 </figure>
                 <div className="free-delivery-message">
                   <h1>Free Delivery</h1>
@@ -122,7 +124,7 @@ export const ProductDetail = () => {
               <hr />
               <div className="return-delivery">
                 <figure>
-                  <img src="/public/images/Icon-return.png" alt="" />
+                  <img src={returndelivery} alt="" />
                 </figure>
                 <div className="return-delivery-message">
                   <h1>Return Delivery</h1>

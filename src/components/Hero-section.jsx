@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import iphone from "../assets/images/Frame 560.png";
 export const HeroSection = () => {
   return (
     <div className="hero-section">
@@ -17,7 +18,7 @@ export const HeroSection = () => {
       </div>
       <div className="right-hero-section">
         <figure>
-          <img src="./public/Frame560.png" alt="" />
+          <img src={iphone} alt="" />
         </figure>
       </div>
     </div>

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Footer } from "../components/Footer";
 import { TopHeader } from "../components/TopHeader";
 import { useNavigate } from "react-router-dom";
+import call from "../assets/images/icons-call.png";
+import mail from "../assets/images/icons-mail.png";
 
 export const Contact = () => {
   const [isclicked, setIsclicked] = useState(true);
@@ -34,7 +36,7 @@ export const Contact = () => {
         <div className="left-contact-sec">
           <div className="left-contact-content">
             <div className="calltous">
-              <img src="/public/images/icons-call.png" alt="" />
+              <img src={call} alt="" />
               <h1>call to us</h1>
             </div>
             <div className="calltous-msg">
@@ -45,7 +47,7 @@ export const Contact = () => {
             <div className="divider"></div>
 
             <div className="writetous calltous">
-              <img src="/public/images/icons-mail.png" alt="" />
+              <img src={mail} alt="" />
               <h1>write to us</h1>
             </div>
             <div className="writetous-msg calltous-msg">
