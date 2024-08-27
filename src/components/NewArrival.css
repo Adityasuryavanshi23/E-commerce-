@@ -1,0 +1,185 @@
+.NewArrival-main {
+    max-width: 117rem;
+    margin: auto;
+    margin-top: 14rem;
+}
+
+.Newarrival-images-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.left-arrival-image {
+    width: 57rem;
+    height: 60rem;
+    background-color: black;
+    position: relative;
+}
+
+.left-arrival-image figure {
+    position: absolute;
+    bottom: 0;
+    left: 5rem;
+
+}
+
+.right-arrival-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 57rem;
+    height: 60rem;
+}
+
+.right-arrival-image .women-collection {
+    height: 28.4rem;
+    background-color: #0b0909fc;
+    position: relative;
+}
+
+.women-collection figure img {
+    position: absolute;
+    right: 0;
+}
+
+.right-arrival-image .down-image-sec {
+    display: flex;
+}
+
+.down-image-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-image-sec .speaker {
+    width: 27rem;
+    height: 28.4rem;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+
+.perfume figure img {
+    filter: drop-shadow(4px 2px 50px rgb(66, 62, 62));
+    margin-top: 5rem;
+}
+
+.speaker figure img {
+    filter: drop-shadow(4px 2px 50px rgb(66, 62, 62));
+    margin-top: 5rem;
+}
+
+
+.down-image-sec .perfume {
+    width: 27rem;
+    height: 28.4rem;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.arrival-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    position: absolute;
+    bottom: 3.2rem;
+    left: 3.2rem;
+    max-width: 24.2rem;
+}
+
+
+.arrival-content a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.arrival-content h1 {
+    font-family: "Inter";
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.arrival-content p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left;
+    color: #fafafabf;
+    line-height: 2.1rem;
+}
+
+.speaker-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: white;
+    position: absolute;
+    bottom: 2.4rem;
+    left: 2.4rem;
+}
+
+.speaker-content h1 {
+    font-family: "Inter";
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.speaker-content p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left;
+    color: #fafafabf;
+    line-height: 2.1rem;
+}
+
+.speaker-content a {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.services-section {
+    max-width: 94.3rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 14rem;
+}
+
+.services-section .free-fast,
+.customer-service,
+.moneyback {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.services-section img {
+    margin-bottom: 2.4rem;
+}
+
+.services-section h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.services-section p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}

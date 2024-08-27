@@ -1,0 +1,253 @@
+.products-detail {
+    max-width: 117rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+}
+
+.products-breakdown .breakdown-boxes img {
+    width: 12.1rem;
+    height: 11.4rem;
+}
+
+.products-breakdown .breakdown-boxes {
+    background-color: #F5F5F5;
+    width: 17rem;
+    height: 13.8rem;
+    border-radius: 4px;
+}
+
+.products-detail .products-image {
+    max-width: 50rem;
+    height: 60rem;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-image figure img {
+    width: 44.6rem;
+    height: 31.5rem;
+    object-fit: contain;
+}
+
+.breakdown-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-discription {
+    width: 40rem;
+    height: auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.products-discription h1 {
+    font-family: "Inter";
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.products-discription p {
+    font-family: "Inter";
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 2.4rem;
+}
+
+.products-discription .description {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.colors .h1 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.circles {
+    display: flex;
+    gap: 8px;
+}
+
+
+.circle1,
+.circle2 {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle1 {
+    background-color: #E07575;
+}
+
+.circle1,
+.circle2:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.sizes {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 2.4rem;
+}
+
+.size-boxes {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.size {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.size-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 4px;
+    border: 1px solid #00000080;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.size-box:hover {
+    background-color: #DB4444;
+    color: white;
+}
+
+.observe-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+}
+
+.quantities-sec {
+    display: flex;
+    width: 15.9rem;
+    height: 4rem;
+    border: 1px solid #00000080;
+    justify-content: space-between;
+}
+
+.quantities-sec p {
+    margin-top: 0.8rem;
+}
+
+.quantities-sec .plus,
+.quantities-sec .minus {
+    width: 3.5rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.quantities-sec .plus {
+    background-color: #DB4444;
+    color: white;
+    border: none;
+    border-left: 1px solid #00000080;
+
+}
+
+.quantities-sec .minus {
+    border: none;
+    border-right: 1px solid #00000080;
+    border-bottom: 1px solid #00000080;
+
+}
+
+.delivery-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00000080;
+    margin-top: 4.8rem;
+}
+
+.free-delivery {
+    padding: 1.4rem 5.1rem 1.4rem 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+}
+
+.buys-now {
+    padding: 1rem 4.8rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #DB4444;
+    border-radius: 4px;
+    border: none;
+}
+
+.heart-div {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hearts {
+    font-size: 3.2rem;
+}
+
+
+
+.return-delivery {
+    padding: 1.4rem 5.1rem 1.4rem 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+
+}
+
+.delivery-section h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.delivery-section p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.related-item {
+    max-width: 117rem;
+    margin: auto;
+    margin-top: 14rem;
+}
