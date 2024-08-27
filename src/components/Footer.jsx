@@ -1,6 +1,6 @@
 import { CiLocationArrow1 } from "react-icons/ci";
 import appstore from "../assets/images/appstore.png";
-import googleplay from "../assets/images/googleplay.png";
+import googleplay from "../assets/images/GooglePlay.png";
 import QrCode from "../assets/images/Qr Code.png";
 
 export const Footer = () => {
