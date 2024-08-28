@@ -64,7 +64,32 @@
     font-size: 2.4rem;
     font-weight: 700;
     cursor: pointer;
+    position: relative;
 }
+
+
+.main-header h1::after {
+    content: "";
+    position: relative;
+    display: block;
+    left: 0;
+    width: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+.main-header h1:hover::after {
+    width: 100%;
+
+}
+
+.main-header h1:hover {
+    color: rgba(0, 0, 0, 0.695);
+}
+
+
 
 .menus {
     list-style-type: none;
@@ -77,6 +102,26 @@
     font-size: 1.6rem;
     font-weight: 400;
     cursor: pointer;
+    position: relative;
+}
+
+.menus li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.menus li:hover::after {
+    width: 100%;
+}
+
+.menus li:hover {
+    color: rgba(0, 0, 0, 0.568);
 }
 
 .search-icon-cart-icon {
@@ -302,16 +347,23 @@
     display: grid;
     place-content: center;
     position: absolute;
-    font-size: 18px;
-    width: 20px;
-    top: -14px;
-    right: -20px;
+    font-size: 14px;
+    width: 10px;
+    top: -7px;
+    right: -5px;
     color: white;
-    padding: 11px;
+    padding: 10px;
     background-color: #DB4444;
     border-radius: 50%;
-    height: 20px;
+    height: 11px;
 }
+
+
+.liked {
+    left: 18px;
+
+}
+
 
 .selling-product-card {
     width: 27rem;

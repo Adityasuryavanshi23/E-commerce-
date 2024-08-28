@@ -1,0 +1,59 @@
+.wishlist {
+    max-width: 117rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8rem;
+}
+
+.wishlist-heading {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: .8rem;
+}
+
+.wishlist-items {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.wishlist-figure {
+    position: relative;
+}
+
+
+.delete-icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    font-size: 3.4rem;
+}
+
+.wishlist-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.empty-msg {
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: .8rem;
+    font-size: 3.2rem;
+}
+
+.just-for-you {
+    max-width: 117rem;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.wishlist-swiper {
+    display: none;
+}

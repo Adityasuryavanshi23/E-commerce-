@@ -16,6 +16,7 @@ import useFetchProducts from "./hook/useFetchProducts";
 import { useEffect } from "react";
 import { Cart } from "./pages/Cart";
 import { ProductDetail } from "./pages/ProductDetail";
+import { Wishlist } from "./pages/Wishlist";
 
 const Home = () => {
   const { fetchProducts } = useFetchProducts();
@@ -66,6 +67,10 @@ const Router = createBrowserRouter([
   {
     path: "/productdetail/:id",
     element: <ProductDetail />,
+  },
+  {
+    path: "/wishlist",
+    element: <Wishlist />,
   },
 ]);
 

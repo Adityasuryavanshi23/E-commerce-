@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 export const TopHeader = () => {
   const nav = useNavigate();
   const { cart } = useSelector((state) => state.cart);
+  const { wishlist } = useSelector((state) => state.wishlist);
 
   return (
     <>
@@ -40,7 +41,13 @@ export const TopHeader = () => {
               <IoSearchOutline className="search-icon" />
             </div>
             <div className="icons">
-              <CiHeart className="heart-icon" />
+              <div className="liked-items carticon">
+                <div className="liked items">{wishlist.length}</div>
+                <CiHeart
+                  className="heart-icon cursor"
+                  onClick={() => nav("/wishlist")}
+                />
+              </div>
               <div className="carticon">
                 <div className="items">{cart.length}</div>
                 <IoCartOutline

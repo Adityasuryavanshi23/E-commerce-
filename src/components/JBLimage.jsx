@@ -1,7 +1,6 @@
 import { CountDown } from "./CountDown";
-
-import "./JBLimage.css";
 import jblimage from "../assets/images/jbl_image.png";
+import "./JBLimage.css";
 
 export const JBLimage = () => {
   const deadline = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
