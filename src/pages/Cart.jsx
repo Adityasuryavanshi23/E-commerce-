@@ -1,6 +1,4 @@
 import { useMemo, useState } from "react";
-import { Footer } from "../components/Footer";
-import { TopHeader } from "../components/TopHeader";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { updateCart } from "../store/slices/cartSlice";
@@ -46,7 +44,6 @@ export const Cart = () => {
   );
   return (
     <>
-      <TopHeader />
       <div className="navigate-divs">
         <button
           className={!isclicked ? "active" : ""}
@@ -138,7 +135,6 @@ export const Cart = () => {
           <button className="proceed-btn cursor">proceed to checkout</button>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

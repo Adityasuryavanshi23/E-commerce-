@@ -1,7 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { TopHeader } from "../components/TopHeader";
-import { Footer } from "../components/Footer";
+
 import { updateWishlist } from "../store/slices/wishlist";
 import { setCart } from "../store/slices/cartSlice";
 
@@ -25,7 +24,6 @@ export const Wishlist = () => {
 
   return (
     <>
-      <TopHeader />
       <div className="wishlist">
         <h1 className="wishlist-heading"> Wishlist ({wishlist.length})</h1>
         {wishlist.length > 0 ? (
@@ -70,7 +68,6 @@ export const Wishlist = () => {
           <SwiperComponent className="wishlist-swiper" />
         </div>
       </div>
-      <Footer />
     </>
   );
 };

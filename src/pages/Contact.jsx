@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Footer } from "../components/Footer";
-import { TopHeader } from "../components/TopHeader";
+
 import { useNavigate } from "react-router-dom";
 import call from "../assets/images/icons-call.png";
 import mail from "../assets/images/icons-mail.png";
@@ -10,7 +9,6 @@ export const Contact = () => {
   const nav = useNavigate();
   return (
     <>
-      <TopHeader />
       <div className="navigate-divs">
         <button
           className={!isclicked ? "active" : ""}
@@ -71,7 +69,6 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

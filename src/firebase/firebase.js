@@ -1,14 +1,13 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAIQhXlHxXf-85wjhijmuV-f4FddupKA9c",
-  authDomain: "aditya-8cd7b.firebaseapp.com",
-  projectId: "aditya-8cd7b",
-  storageBucket: "aditya-8cd7b.appspot.com",
-  messagingSenderId: "1022195154652",
-  appId: "1:1022195154652:web:18115c60a18251b2d77e19",
-  measurementId: "G-B1VLNN1C4V"
+  apiKey: "AIzaSyCH9LrQ62P3j3d51QBTuXWyqcbrMEvo7tU",
+  authDomain: "secondecommerce-1dc87.firebaseapp.com",
+  projectId: "secondecommerce-1dc87",
+  storageBucket: "secondecommerce-1dc87.appspot.com",
+  messagingSenderId: "168294218884",
+  appId: "1:168294218884:web:87787b0af3cfb4e4f716d1",
+  measurementId: "G-JLVMW7G0BE"
 };
 
- export const app = initializeApp(firebaseConfig);
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);

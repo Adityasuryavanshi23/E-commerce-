@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Footer } from "../components/Footer";
-import { TopHeader } from "../components/TopHeader";
+
 import { useNavigate } from "react-router-dom";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
@@ -26,7 +25,6 @@ export const About = () => {
   const nav = useNavigate();
   return (
     <>
-      <TopHeader />
       <div className="navigate-divs">
         <button
           className={!isclicked ? "active" : ""}
@@ -173,7 +171,6 @@ export const About = () => {
           <p>We reurn money within 30 days</p>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

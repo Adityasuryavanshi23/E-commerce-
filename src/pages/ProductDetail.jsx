@@ -1,5 +1,3 @@
-import { TopHeader } from "../components/TopHeader";
-import { Footer } from "../components/Footer";
 import { SwiperComponent } from "../components/SwiperComponent";
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -43,8 +41,6 @@ export const ProductDetail = () => {
 
   return (
     <>
-      <TopHeader />
-
       {Object.keys(productDetail).length > 0 && (
         <div className="products-detail">
           <div className="products-breakdown">
@@ -147,7 +143,6 @@ export const ProductDetail = () => {
           <SwiperComponent />
         </div>
       </div>
-      <Footer />
     </>
   );
 };
