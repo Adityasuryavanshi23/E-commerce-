@@ -3,14 +3,19 @@ import { FcGoogle } from "react-icons/fc";
 import { Footer } from "../components/Footer";
 import { TopHeader } from "../components/TopHeader";
 import { Login } from "./Login";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import sideimage from "../assets/images/Side Image.png";
+import { app } from "../firebase/firebase";
 
+const auth = getAuth(app);
 export const SignUp = () => {
   const [user, setUser] = useState({
     name: "",
     email: "",
     password: "",
   });
+  const { name, email, password } = user;
+
   const [isLogin, setIsLogin] = useState(false);
 
   const HandleChange = (e) => {
@@ -19,6 +24,11 @@ export const SignUp = () => {
   };
 
   const HandleSubmit = (e) => {
+    createUserWithEmailAndPassword(auth, email, password).then((res) => {
+      alert("successfully created account", res);
+      console.log(res);
+    });
+
     e.preventDefault();
     console.log(user);
     setUser({
@@ -50,21 +60,21 @@ export const SignUp = () => {
                   type="text"
                   name="name"
                   placeholder="Name"
-                  value={user.name}
+                  value={name}
                   onChange={HandleChange}
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Email or Phone Number"
-                  value={user.email}
+                  value={email}
                   onChange={HandleChange}
                 />
                 <input
                   type="password"
                   name="password"
                   placeholder="Password"
-                  value={user.password}
+                  value={password}
                   onChange={HandleChange}
                 />
               </div>
