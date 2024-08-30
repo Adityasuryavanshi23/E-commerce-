@@ -1,5 +1,5 @@
-import { CountDown } from "./CountDown";
-import jblimage from "../assets/images/jbl_image.png";
+import { CountDown } from "../Countdown/CountDown";
+import jblimage from "../../assets/images/jbl_image.png";
 import "./JBLimage.css";
 
 export const JBLimage = () => {

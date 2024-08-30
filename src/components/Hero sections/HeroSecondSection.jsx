@@ -1,6 +1,6 @@
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
-import { CountDown } from "./CountDown";
-import { SwiperComponent } from "./SwiperComponent";
+import { CountDown } from "../Countdown/CountDown";
+import { SwiperComponent } from "../Products/SwiperComponent";
 import "./HeroSecondSection.css";
 
 export const HeroSecondSection = () => {

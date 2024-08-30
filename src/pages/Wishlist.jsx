@@ -1,12 +1,10 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-
 import { updateWishlist } from "../store/slices/wishlist";
 import { setCart } from "../store/slices/cartSlice";
-
-import "../pages/Wishlist.css";
 import { MdOutlineDeleteForever } from "react-icons/md";
-import { SwiperComponent } from "../components/SwiperComponent";
+import { SwiperComponent } from "../components/Products/SwiperComponent";
+import "../pages/Wishlist.css";
 export const Wishlist = () => {
   const { wishlist } = useSelector((state) => state.wishlist);
   const nav = useNavigate();

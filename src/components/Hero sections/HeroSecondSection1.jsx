@@ -1,8 +1,7 @@
-import { IoPhonePortraitOutline } from "react-icons/io5";
+import { IoPhonePortraitOutline, IoCameraOutline } from "react-icons/io5";
 import { CiHeadphones } from "react-icons/ci";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
 import { BsSmartwatch } from "react-icons/bs";
-import { IoCameraOutline } from "react-icons/io5";
 import { SiYoutubegaming } from "react-icons/si";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 export const HeroSecondSection1 = () => {

@@ -1,11 +1,11 @@
 import "./NewArrival.css";
-import playstation from "../assets/images/playsstationimage.png";
-import womencollection from "../assets/images/womens collection.png";
-import speakers from "../assets/images/speaker.png";
-import perfumes from "../assets/images/perfume.png";
-import services1 from "../assets/images/Services1.png";
-import services2 from "../assets/images/Services2.png";
-import services3 from "../assets/images/Services3.png";
+import playstation from "../../assets/images/playsstationimage.png";
+import womencollection from "../../assets/images/womens collection.png";
+import speakers from "../../assets/images/speaker.png";
+import perfumes from "../../assets/images/perfume.png";
+import services1 from "../../assets/images/Services1.png";
+import services2 from "../../assets/images/Services2.png";
+import services3 from "../../assets/images/Services3.png";
 
 export const NewArrival = () => {
   return (

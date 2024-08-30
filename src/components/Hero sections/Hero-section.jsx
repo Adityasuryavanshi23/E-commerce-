@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import iphone from "../assets/images/Frame 560.png";
+import iphone from "../../assets/images/Frame 560.png";
 export const HeroSection = () => {
   return (
     <div className="hero-section">

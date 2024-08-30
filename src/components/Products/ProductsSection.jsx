@@ -1,5 +1,5 @@
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
-import { SwiperComponent } from "./SwiperComponent";
+import { SwiperComponent } from "../Products/SwiperComponent";
 
 import "swiper/css";
 import "swiper/css/pagination";

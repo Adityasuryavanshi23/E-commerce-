@@ -112,7 +112,7 @@
     bottom: -3px;
     width: 0;
     height: 2px;
-    background-color: #000;
+    background-color: black;
     transition: all 0.3s ease;
 }
 
@@ -120,9 +120,6 @@
     width: 100%;
 }
 
-.menus li:hover {
-    color: rgba(0, 0, 0, 0.568);
-}
 
 .search-icon-cart-icon {
     width: 34.7rem;
@@ -871,6 +868,25 @@ ul {
 .navigate-divs button.active {
     opacity: 100%;
 }
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #DB4444;
+}
+
+.nav-link.active {
+    color: red;
+}
+
+
+
 
 .home,
 .about {

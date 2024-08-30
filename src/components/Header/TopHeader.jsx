@@ -1,13 +1,18 @@
 import { FaChevronDown } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline, IoSearchOutline } from "react-icons/io5";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 export const TopHeader = () => {
   const nav = useNavigate();
   const { cart } = useSelector((state) => state.cart);
   const { wishlist } = useSelector((state) => state.wishlist);
+  const getNavStyle = ({ isActive }) => {
+    return {
+      color: isActive ? "#DB4444" : "black",
+    };
+  };
 
   return (
     <>
@@ -30,10 +35,26 @@ export const TopHeader = () => {
             <h1 onClick={() => nav("/")}>exclusive</h1>
           </div>
           <ul className="menus">
-            <li onClick={() => nav("/")}>home</li>
-            <li onClick={() => nav("/contact")}>contact</li>
-            <li onClick={() => nav("/about")}>about</li>
-            <li onClick={() => nav("/signup")}>sign up</li>
+            <li>
+              <NavLink style={getNavStyle} to="/" className="nav-link">
+                home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={getNavStyle} to="/contact" className="nav-link">
+                contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={getNavStyle} to="/about" className="nav-link">
+                about
+              </NavLink>
+            </li>
+            <li>
+              <NavLink style={getNavStyle} to="/signup" className="nav-link">
+                sign up
+              </NavLink>
+            </li>
           </ul>
           <div className="search-icon-cart-icon">
             <div className="search-bar">

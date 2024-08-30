@@ -1,4 +1,4 @@
-import { SwiperComponent } from "../components/SwiperComponent";
+import { SwiperComponent } from "../components/Products/SwiperComponent";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import "../pages/ProductsDetail.css";

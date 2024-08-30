@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HeroSection } from "./components/Hero-section";
-import { HeroSecondSection } from "./components/HeroSecondSection";
-import { HeroSecondSection1 } from "./components/HeroSecondSection1";
-import { JBLimage } from "./components/JBLimage";
-import { NewArrival } from "./components/NewArrival";
-import { ProductsSection } from "./components/ProductsSection";
-import { SellingProduct } from "./components/SellingProduct";
+import { HeroSection } from "./components/Hero sections/Hero-section";
+import { HeroSecondSection } from "./components/Hero sections/HeroSecondSection";
+import { HeroSecondSection1 } from "./components/Hero sections/HeroSecondSection1";
+import { JBLimage } from "./components/Adverstisement sections/JBLimage";
+import { NewArrival } from "./components/Adverstisement sections/NewArrival";
+import { ProductsSection } from "./components/Products/ProductsSection";
+import { SellingProduct } from "./components/Products/SellingProduct";
 import { SignUp } from "./pages/Signup";
 import { Login } from "./pages/Login";
 import { Contact } from "./pages/Contact";
